@@ -1,0 +1,23 @@
+COMP 413 Ramiz Hameed P2
+
+
+TestIterator TODO:
+    1.The difference is that LinkedList would be slower
+    2.The test fails
+
+TestList TODO:
+    1. Faster Ad/removal, Slower access
+    2. Removes the value at the given index, in this case at index 5
+    3. list.remove(Integer.valueOf(5)) -> removes the first value that is 5
+
+TestPerformance TODO:
+    1. Add/Remove @1000000=REPS
+        - LinkedList@SIZE=10 -> 11ms
+        - ArrayList@SIZE=10 -> 15ms
+        - LinkedList@SIZE=100000 -> 10ms
+        - ArrayList@SIZE=100000 -> 16671ms
+    2. Access @1000000=REPS
+        - LinkedList@SIZE=100 -> 15ms
+        - ArrayList@SIZE=100 -> 9ms
+        - LinkedList@SIZE=100000 -> 4652ms
+        - ArrayList@SIZE=100000 -> 7ms
